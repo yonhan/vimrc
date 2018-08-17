@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/tianyh/public/VoipPhone_AD100R'
+let g:netrw_dirhist_2='/home/tianyh/public/VoipPhone_AD100R_QingDao'
+let g:netrw_dirhist_3='/home/tianyh/hi3518/pjsip/mpp/sample'
+let g:netrw_dirhist_4='/home/tianyh/imx6/gstreamer/gst-plugins-bad-0.10.23'
+let g:netrw_dirhist_5='/home/tianyh/imx6/android/kernel_imx/drivers/video/mxc'
+let g:netrw_dirhist_6='/home/tianyh/public/VoipPhone_TCS_NEW'
+let g:netrw_dirhist_7='/home/tianyh/pjsip/gstreamer-1.12/gst-docs/examples/tutorials/android-tutorial-rtmp/src/main/assets'
+let g:netrw_dirhist_8='/home/tianyh/public/android/Intercom/Intercom/app/src/main'

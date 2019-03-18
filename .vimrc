@@ -100,6 +100,8 @@ filetype off                  " 必须要添加
  Plugin 'git://github.com/scrooloose/nerdtree.git'
  Plugin 'git://github.com/Xuyuanp/nerdtree-git-plugin.git'
 
+ Plugin 'scrooloose/syntastic'
+
 " " 你的所有插件需要在下面这行之前
  call vundle#end()            " 必须
  filetype plugin indent on    " 必须
@@ -131,3 +133,13 @@ let g:NERDTreeWinPos="left"
 let g:NERDTreeWinSize=25
 let g:NERDTreeShowLineNumbers=1
 let g:neocomplcache_enable_at_startup = 1 
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_cpplint_exec = 'cpplint'
+let g:syntastic_cpp_checkers = ['cpplint', 'gcc']
+" 设置 cpplint 的错误级别阈值（默认是 5），级别低于这一设置的不会显示
+let g:syntastic_cpp_cpplint_thres = 1
+let syntastic_aggregate_errors = 1
+let g:syntastic_error_symbol = "✗"
+let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_style_error_symbol = '!'
+let g:syntastic_style_warning_symbol = '?'

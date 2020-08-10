@@ -21,6 +21,7 @@ set foldenable      " 允许折叠
 set foldmethod=indent
 set foldlevel=99
 
+syntax on
 set number                      " 显示行号
 set tabstop=4                   " 设定tab长度为4
 set shiftwidth=4                " 缩进的空格数

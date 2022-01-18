@@ -7,7 +7,7 @@ set fileencodings=utf-8,gb2312,gbk,gb18030
 set termencoding=utf-8
 set fileformats=unix,dos
 set langmenu=zh_CN.UTF-8
-language message zh_CN.UTF-8
+"language message zh_CN.UTF-8
 
 set background=dark
 set guifont=Fantasque\ Sans\ Mono:h14
@@ -100,9 +100,9 @@ filetype off                  " 必须要添加
  Plugin 'ascenator/L9', {'name': 'newL9'}
  Plugin 'git://github.com/scrooloose/nerdtree.git'
  Plugin 'git://github.com/Xuyuanp/nerdtree-git-plugin.git'
-
- Plugin 'scrooloose/syntastic'
-
+ Plugin 'ycm-core/YouCompleteMe'
+ "Plugin 'scrooloose/syntastic'
+ Plugin 'fatih/vim-go'
 " " 你的所有插件需要在下面这行之前
  call vundle#end()            " 必须
  filetype plugin indent on    " 必须
